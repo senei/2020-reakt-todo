@@ -1,0 +1,12 @@
+.todo-app .todo-view {
+	position: relative;
+}
+
+.todo-app .todo-view:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 32px;
+	height: 100%;
+}
